@@ -1,8 +1,9 @@
 package cronexpr
 
-import "time"
+type Expression struct {
+}
 
-// Parse takes in a cron expression and returns a time duration
+// Parse takes in a cron expression and returns an Expression
 // and an error if any.
 //
 // The following implementation of the linux cron expression is used:
@@ -16,6 +17,6 @@ import "time"
 // # │ │ │ │ │
 // # │ │ │ │ │
 // # * * * * * <command to execute>
-func Parse(expression string) (time.Duration, error) {
-	return 0, nil
+func Parse(expression string) (Expression, error) {
+	return Expression{}, nil
 }

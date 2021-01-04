@@ -1,6 +1,6 @@
 # cron-expression
 
-This is a Golang library for parsing cron expressions into a usable `time.Duration`.
+This is a Golang library for parsing cron expressions
 
 The implementation is based on [wikipedia's cron documentation](https://en.wikipedia.org/wiki/Cron)
 
